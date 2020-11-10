@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medcare</title>
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!--  Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Google Font-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&amp;display=swap">
+    <!-- Font Awsome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <!-- Owl Carousel-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <!-- Fancy box-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <wrapper>
+      <!-- Loader-->
+      <div class="preloader"></div>
+      <!-- Header-->
+      <div class="main-header">
+        <!-- Top Bar -->
+        <div class="topbar">
+          <div class="container">
+            <div class="topbar__info d-flex align-items-center">
+              <div class="topbar__info-left">
+                <ul class="topbar-contact d-flex">
+                  <li class="contact__item"><span class="contact__item-text">Call Us: </span><a class="contact__item-link" href="tel:+1 (800) 123-4567"> +1 (800) 123-4567</a></li>
+                  <li><span class="contact__item-text">Support: </span><a class="contact__item-link" href="mailto: info@yourcompany.com">info@yourcompany.com</a></li>
+                </ul>
+              </div>
+              <div class="topbar__info-right">
+                <ul class="topbar-login d-flex">
+                  <li class="login__item"><a class="login__item-link" href="index.html">Log In</a></li>
+                  <li class="login__register"><a class="login__register-link" href="#">Register</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Header-->
+        <div class="header">
+          <div class="container">
+            <div class="header__info d-flex justify-content-between align-items-center"><a class="header__info-logo" href="index.html"><img src="images/logo.png" alt=""></a>
+              <ul class="header__info-menu">
+                <li class="menu-item">
+                  <div class="menu-item__link d-flex align-items-center"><a href="index.html">Home</a></div>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item__link d-flex align-items-center"><a href="about.html">About us</a></div>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item__link d-flex align-items-center"><a href="service.html">Service</a></div>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item__link d-flex align-items-center"><a href="department.html">Department</a></div>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item__link d-flex align-items-center"><a href="doctor.html">Doctors</a><i class="fas fa-chevron-down"></i></div>
+                  <ul class="menu">
+                    <li class="menu-list"><a class="list__text" href="doctor.html">Doctors</a>
+                      <li class="menu-list"><a class="list__text" href="doctor-detail.html">Doctors Detail</a></li>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item__link d-flex align-items-center"><a href="blog.html">Blog</a><i class="fas fa-chevron-down"></i></div>
+                  <ul class="menu">
+                    <li class="menu-list"><a class="list__text" href="blog.html">Blog</a></li>
+                    <li class="menu-list"><a class="list__text" href="blog-detail.html">Blog Detail </a></li>
+                  </ul>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item__link d-flex align-items-center"><a class="pdr-0" href="contact.html">Contact Us</a></div>
+                </li>
+              </ul>
+              <div class="header__info-button"><i class="fas fa-bars"></i></div>
+            </div>
+          </div>
+        </div>
+        <!-- Header Mobile-->
+        <div class="mobile-menu">
+          <div class="menu-box">
+            <div class="menu-top d-flex justify-content-between align-items-center">
+              <div class="menu-box__logo"><img src="images/logo-2.png" alt=""></div>
+              <div class="close-btn">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+              </div>
+            </div>
+            <ul class="menu-box__list">
+              <li class="box-item">
+                <div class="box-item__link d-flex justify-content-between align-items-center"><a href="index.html" id="colorBlue">Home</a></div>
+              </li>
+              <li class="box-item">
+                <div class="box-item__link d-flex justify-content-between align-items-center"><a href="about.html">About Us</a></div>
+              </li>
+              <li class="box-item">
+                <div class="box-item__link d-flex justify-content-between align-items-center"><a href="service.html">Service</a></div>
+              </li>
+              <li class="box-item">
+                <div class="box-item__link d-flex justify-content-between align-items-center"><a href="department.html">Department</a></div>
+              </li>
+              <li class="box-item">
+                <div class="box-item__link d-flex justify-content-between align-items-center"><a href="doctor.html">Doctors</a><i class="fas fa-chevron-down"></i></div>
+                <ul class="box-list">
+                  <li class="list-item"><a class="list-item__link" href="doctor.html">Doctors</a></li>
+                  <li class="list-item"><a class="list-item__link" href="doctor-detail.html">Doctors Detail</a></li>
+                </ul>
+              </li>
+              <li class="box-item">
+                <div class="box-item__link d-flex justify-content-between align-items-center"><a href="blog.html">Blog</a><i class="fas fa-chevron-down"> </i></div>
+                <ul class="box-list">
+                  <li class="list-item"><a class="list-item__link" href="blog.html">Blog</a></li>
+                  <li class="list-item"><a class="list-item__link" href="blog-detail.html">Blog Detail </a></li>
+                </ul>
+              </li>
+              <li class="box-item">
+                <div class="box-item__link d-flex justify-content-between align-items-center"><a href="contact.html">Contact Us</a></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="menu-backdrop"></div>
+      </div>
+      <!-- banner service-->
+      <div class="banner banner__service">
+        <div class="banner__background"></div>
+        <div class="container">
+          <h1 class="banner__title">Services</h1>
+          <ul class="banner__list"> 
+            <li class="banner__list-item"><a class="item-link" href="#">Home</a></li>
+            <li class="banner__list-link">Services</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Product-->
+      <div class="product">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 product__info text-center">
+              <h2 class="product__info-title">Service We Provide</h2>
+              <div class="product__info-text">Replenish him third creature and meat most of the blessed best<br>of the void a fruit gathered.</div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                    <div class="duty__box" onMouseOut="this.children[1].children[0].style.color='black'" onMouseOver="this.children[1].children[0].style.color='#e7d74f'">
+                      <div class="duty__box-number" style="border-color:#e7d74f">
+                        <div class="number" style="border-color:#e7d74f; background-color:#e7d74f">01</div>
+                      </div>
+                      <h4><a class="duty__box-link">Physical therapy</a></h4>
+                      <div class="duty__box-text">Replenish him third creature and meat blessed void a fruit gathered you’re behold had seed.</div>
+                    </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                    <div class="duty__box" onMouseOut="this.children[1].children[0].style.color='black'" onMouseOver="this.children[1].children[0].style.color='#f98f74'">
+                      <div class="duty__box-number" style="border-color:#f98f74">
+                        <div class="number" style="border-color:#f98f74; background-color:#f98f74">02</div>
+                      </div>
+                      <h4><a class="duty__box-link">Pediatric Services</a></h4>
+                      <div class="duty__box-text">Replenish him third creature and meat blessed void a fruit gathered you’re behold had seed.</div>
+                    </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                    <div class="duty__box" onMouseOut="this.children[1].children[0].style.color='black'" onMouseOver="this.children[1].children[0].style.color='#50d5a0'">
+                      <div class="duty__box-number" style="border-color:#50d5a0">
+                        <div class="number" style="border-color:#50d5a0; background-color:#50d5a0">03</div>
+                      </div>
+                      <h4><a class="duty__box-link">Diagnostic Center</a></h4>
+                      <div class="duty__box-text">Replenish him third creature and meat blessed void a fruit gathered you’re behold had seed.</div>
+                    </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                    <div class="duty__box" onMouseOut="this.children[1].children[0].style.color='black'" onMouseOver="this.children[1].children[0].style.color='#5153ff'">
+                      <div class="duty__box-number" style="border-color:#5153ff">
+                        <div class="number" style="border-color:#5153ff; background-color:#5153ff">04</div>
+                      </div>
+                      <h4><a class="duty__box-link">Healthcare Center</a></h4>
+                      <div class="duty__box-text">Replenish him third creature and meat blessed void a fruit gathered you’re behold had seed.</div>
+                    </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                    <div class="duty__box" onMouseOut="this.children[1].children[0].style.color='black'" onMouseOver="this.children[1].children[0].style.color='#e97be8'">
+                      <div class="duty__box-number" style="border-color:#e97be8">
+                        <div class="number" style="border-color:#e97be8; background-color:#e97be8">05</div>
+                      </div>
+                      <h4><a class="duty__box-link">Neurology</a></h4>
+                      <div class="duty__box-text">Replenish him third creature and meat blessed void a fruit gathered you’re behold had seed.</div>
+                    </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                    <div class="duty__box" onMouseOut="this.children[1].children[0].style.color='black'" onMouseOver="this.children[1].children[0].style.color='#74d5f9'">
+                      <div class="duty__box-number" style="border-color:#74d5f9">
+                        <div class="number" style="border-color:#74d5f9; background-color:#74d5f9">06</div>
+                      </div>
+                      <h4><a class="duty__box-link">Neurosurgery</a></h4>
+                      <div class="duty__box-text">Replenish him third creature and meat blessed void a fruit gathered you’re behold had seed.</div>
+                    </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                    <div class="duty__box" onMouseOut="this.children[1].children[0].style.color='black'" onMouseOver="this.children[1].children[0].style.color='#50d55d'">
+                      <div class="duty__box-number" style="border-color:#50d55d">
+                        <div class="number" style="border-color:#50d55d; background-color:#50d55d">07</div>
+                      </div>
+                      <h4><a class="duty__box-link">Orthopaedics</a></h4>
+                      <div class="duty__box-text">Replenish him third creature and meat blessed void a fruit gathered you’re behold had seed.</div>
+                    </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                    <div class="duty__box" onMouseOut="this.children[1].children[0].style.color='black'" onMouseOver="this.children[1].children[0].style.color='#fe6993'">
+                      <div class="duty__box-number" style="border-color:#fe6993">
+                        <div class="number" style="border-color:#fe6993; background-color:#fe6993">08</div>
+                      </div>
+                      <h4><a class="duty__box-link">Surgical Services</a></h4>
+                      <div class="duty__box-text">Replenish him third creature and meat blessed void a fruit gathered you’re behold had seed.</div>
+                    </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                    <div class="duty__box" onMouseOut="this.children[1].children[0].style.color='black'" onMouseOver="this.children[1].children[0].style.color='#7073ff'">
+                      <div class="duty__box-number" style="border-color:#7073ff">
+                        <div class="number" style="border-color:#7073ff; background-color:#7073ff">09</div>
+                      </div>
+                      <h4><a class="duty__box-link">Primary Care</a></h4>
+                      <div class="duty__box-text">Replenish him third creature and meat blessed void a fruit gathered you’re behold had seed.</div>
+                    </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                    <div class="duty__box" onMouseOut="this.children[1].children[0].style.color='black'" onMouseOver="this.children[1].children[0].style.color='#21c6b5'">
+                      <div class="duty__box-number" style="border-color:#21c6b5">
+                        <div class="number" style="border-color:#21c6b5; background-color:#21c6b5">10</div>
+                      </div>
+                      <h4><a class="duty__box-link">Women's Health</a></h4>
+                      <div class="duty__box-text">Replenish him third creature and meat blessed void a fruit gathered you’re behold had seed.</div>
+                    </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                    <div class="duty__box" onMouseOut="this.children[1].children[0].style.color='black'" onMouseOver="this.children[1].children[0].style.color='#f25480'">
+                      <div class="duty__box-number" style="border-color:#f25480">
+                        <div class="number" style="border-color:#f25480; background-color:#f25480">11</div>
+                      </div>
+                      <h4><a class="duty__box-link">Transplant</a></h4>
+                      <div class="duty__box-text">Replenish him third creature and meat blessed void a fruit gathered you’re behold had seed.</div>
+                    </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                    <div class="duty__box" onMouseOut="this.children[1].children[0].style.color='black'" onMouseOver="this.children[1].children[0].style.color='#339fa3'">
+                      <div class="duty__box-number" style="border-color:#339fa3">
+                        <div class="number" style="border-color:#339fa3; background-color:#339fa3">12</div>
+                      </div>
+                      <h4><a class="duty__box-link">Cancer Center</a></h4>
+                      <div class="duty__box-text">Replenish him third creature and meat blessed void a fruit gathered you’re behold had seed.</div>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Sevice-->
+      <div class="service service-nav">
+        <div class="service-nav__background"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 service-text text-center">
+              <h2 class="service-text__title">Our Specialties</h2>
+              <div class="service-text__content">Replenish him third creature and meat most of the blessed best<br>of the void a fruit gathered.</div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-30">
+              <div class="service__box">
+                <div class="service__box-icon"><img src="images/doctor.png" alt=""></div>
+                <h4><a class="blue service__info-title" href="">Qualified Doctors</a></h4>
+                <div class="service__box-text">Replenish him third creature and meat blessed void a fruit gathered you’re behold had seed.</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-30">
+              <div class="service__box">
+                <div class="service__box-icon"><img src="images/male.png" alt=""></div>
+                <h4><a class="green service__info-title" href="">Professional Staff</a></h4>
+                <div class="service__box-text">Replenish him third creature and meat blessed void a fruit gathered you’re behold had seed.</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-30">
+              <div class="service__box">
+                <div class="service__box-icon"><img src="images/stethoscope.png" alt=""></div>
+                <h4><a class="pink service__info-title" href="">Emergency Cases</a></h4>
+                <div class="service__box-text">Replenish him third creature and meat blessed void a fruit gathered you’re behold had seed.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Fact-->
+      <div class="fact">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-12 fact__info">
+              <div class="fact__info-content text-center">
+                <div class="content-icon"><span class="icon"><img src="images/icon-1.png" alt=""></span></div>
+                <h4 class="content-title">Happy Patients</h4>
+                <div class="content-number"><span class="content-number__item counters" data-target="50">0</span><span>k+</span></div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 fact__info">
+              <div class="fact__info-content text-center">
+                <div class="content-icon"><span class="icon"><img src="images/icon-2.png" alt=""></span></div>
+                <h4 class="content-title">Experienced Doctors</h4>
+                <div class="content-number"><span class="content-number__item counters" data-target="105">0</span></div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 fact__info">
+              <div class="fact__info-content text-center">
+                <div class="content-icon"><span class="icon"><img src="images/icon-3.png" alt=""></span></div>
+                <h4 class="content-title">Successful Operations</h4>
+                <div class="content-number"><span class="content-number__item counters" data-target="2100">0</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Feedback-->
+      <div class="feedback">
+        <div class="container">
+          <div class="feedback__info text-center">
+            <h2>Recovered Patient Feedbacks</h2>
+            <div class="feedback__info-text">Replenish him third creature and meat most of the blessed<br>void a fruit gathered.</div>
+          </div>
+          <div class="feedback__block owl-carousel owl-theme">
+            <div class="feedback__block-box">
+              <div class="box-quote"><i class="fas fa-quote-left"></i></div>
+              <div class="box-text">Dummy text of the in of printing Lorem Ipsum is simply most dummy text of the printing and ting industry. The Of Lorem Ipsum.</div>
+              <div class="box-author">
+                <div class="box-author__img"><img src="images/author-1.jpg" alt=""></div>
+                <div class="box-author__name">Samira Deshmuk</div>
+                <div class="box-author__rate"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span></div>
+              </div>
+            </div>
+            <div class="feedback__block-box">
+              <div class="box-quote"><i class="fas fa-quote-left"></i></div>
+              <div class="box-text">Dummy text of the in of printing Lorem Ipsum is simply most dummy text of the printing and ting industry. The Of Lorem Ipsum.</div>
+              <div class="box-author">
+                <div class="box-author__img"><img src="images/author-2.jpg" alt=""></div>
+                <div class="box-author__name">Samira Deshmuk</div>
+                <div class="box-author__rate"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span></div>
+              </div>
+            </div>
+            <div class="feedback__block-box">
+              <div class="box-quote"><i class="fas fa-quote-left"></i></div>
+              <div class="box-text">Dummy text of the in of printing Lorem Ipsum is simply most dummy text of the printing and ting industry. The Of Lorem Ipsum.</div>
+              <div class="box-author">
+                <div class="box-author__img"><img src="images/author-3.jpg" alt=""></div>
+                <div class="box-author__name">Samira Deshmuk</div>
+                <div class="box-author__rate"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer-->
+      <div class="footer footer__main">
+        <div class="footer__main-1"></div>
+        <div class="footer__main-2"></div>
+        <div class="container">
+          <div class="footer__contact text-center">
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <div class="footer__contact-text"><i class="fas fa-phone-alt"></i><span>Call For An Appointment</span></div>
+              </div>
+              <div class="col-lg-6 col-12"><a class="footer__contact-number" href="#">+1 (800) 123-4567</a></div>
+            </div>
+          </div>
+          <div class="footer__info">
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <div class="row">
+                  <div class="col-lg-7 col-md-6 col-12 footer__info-column">
+                    <div class="footer__widget">
+                      <div class="footer__widget-logo"><a class="logo-link" href="index.html"><img src="images/logo.png" alt=""></a></div>
+                      <div class="footer__widget-text">Replenish him third creature and meat blessed void a fruit gathered you’re, they’re two waters own morning gathered greater.</div>
+                      <div class="footer__widget-social"><a class="social-link" href="#"><i class="fab fa-facebook-square"></i></a><a class="social-link" href="#"><i class="fab fa-twitter-square"></i></a><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-md-6 col-12 footer__info-column">
+                    <div class="footer__about">
+                      <h4>About Us</h4>
+                      <ul class="footer__about-link">
+                        <li><a href="#">Afficiates</a></li>
+                        <li><a href="#">Partners</a></li>
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-12">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-12 footer__info-column">
+                    <div class="footer__about">
+                      <h4>Resource</h4>
+                      <ul class="footer__about-link">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Support Area</a></li>
+                        <li><a href="#">Documentations</a></li>
+                        <li><a href="#">How It Works</a></li>
+                        <li><a href="#">Terms Of Policy</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-12 footer__info-column">
+                    <div class="footer__about">
+                      <h4>Quick Links</h4>
+                      <ul class="footer__about-link">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Latest Post</a></li>
+                        <li><a href="#">Contact</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="container">
+            <div class="footer__bottom-text">Copyright © 2020 AuburnForest</div>
+          </div>
+        </div>
+      </div>
+      <!-- Backtotop-->
+      <div class="backtotop"><span class="fas fa-arrow-circle-up"></span></div>
+    </wrapper>
+    <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/typeit.js"></script>
+    <script src="js/owlcarousel.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

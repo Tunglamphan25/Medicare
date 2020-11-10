@@ -1,0 +1,24 @@
+$(function() {
+  // Owl Carousel
+$('.feedback__block').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    dots: false,
+    navText: ['<span class="<i class="fas fa-chevron-left"></i><</span>','<span class="<i class="fas fa-chevron-right"></i>></span>'],
+    responsive:{
+        0:{
+            items:1
+        },
+        576:{
+            items:1
+        },
+        992:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+});

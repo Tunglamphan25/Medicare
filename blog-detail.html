@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medcare</title>
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!--  Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Google Font-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&amp;display=swap">
+    <!-- Font Awsome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <!-- Owl Carousel-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <!-- Fancy box-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <wrapper>
+      <!-- Loader-->
+      <div class="preloader"></div>
+      <!-- Header-->
+      <div class="main-header">
+        <!-- Top Bar -->
+        <div class="topbar">
+          <div class="container">
+            <div class="topbar__info d-flex align-items-center">
+              <div class="topbar__info-left">
+                <ul class="topbar-contact d-flex">
+                  <li class="contact__item"><span class="contact__item-text">Call Us: </span><a class="contact__item-link" href="tel:+1 (800) 123-4567"> +1 (800) 123-4567</a></li>
+                  <li><span class="contact__item-text">Support: </span><a class="contact__item-link" href="mailto: info@yourcompany.com">info@yourcompany.com</a></li>
+                </ul>
+              </div>
+              <div class="topbar__info-right">
+                <ul class="topbar-login d-flex">
+                  <li class="login__item"><a class="login__item-link" href="index.html">Log In</a></li>
+                  <li class="login__register"><a class="login__register-link" href="#">Register</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Header-->
+        <div class="header">
+          <div class="container">
+            <div class="header__info d-flex justify-content-between align-items-center"><a class="header__info-logo" href="index.html"><img src="images/logo.png" alt=""></a>
+              <ul class="header__info-menu">
+                <li class="menu-item">
+                  <div class="menu-item__link d-flex align-items-center"><a href="index.html">Home</a></div>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item__link d-flex align-items-center"><a href="about.html">About us</a></div>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item__link d-flex align-items-center"><a href="service.html">Service</a></div>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item__link d-flex align-items-center"><a href="department.html">Department</a></div>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item__link d-flex align-items-center"><a href="doctor.html">Doctors</a><i class="fas fa-chevron-down"></i></div>
+                  <ul class="menu">
+                    <li class="menu-list"><a class="list__text" href="doctor.html">Doctors</a>
+                      <li class="menu-list"><a class="list__text" href="doctor-detail.html">Doctors Detail</a></li>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item__link d-flex align-items-center"><a href="blog.html">Blog</a><i class="fas fa-chevron-down"></i></div>
+                  <ul class="menu">
+                    <li class="menu-list"><a class="list__text" href="blog.html">Blog</a></li>
+                    <li class="menu-list"><a class="list__text" href="blog-detail.html">Blog Detail </a></li>
+                  </ul>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item__link d-flex align-items-center"><a class="pdr-0" href="contact.html">Contact Us</a></div>
+                </li>
+              </ul>
+              <div class="header__info-button"><i class="fas fa-bars"></i></div>
+            </div>
+          </div>
+        </div>
+        <!-- Header Mobile-->
+        <div class="mobile-menu">
+          <div class="menu-box">
+            <div class="menu-top d-flex justify-content-between align-items-center">
+              <div class="menu-box__logo"><img src="images/logo-2.png" alt=""></div>
+              <div class="close-btn">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+              </div>
+            </div>
+            <ul class="menu-box__list">
+              <li class="box-item">
+                <div class="box-item__link d-flex justify-content-between align-items-center"><a href="index.html" id="colorBlue">Home</a></div>
+              </li>
+              <li class="box-item">
+                <div class="box-item__link d-flex justify-content-between align-items-center"><a href="about.html">About Us</a></div>
+              </li>
+              <li class="box-item">
+                <div class="box-item__link d-flex justify-content-between align-items-center"><a href="service.html">Service</a></div>
+              </li>
+              <li class="box-item">
+                <div class="box-item__link d-flex justify-content-between align-items-center"><a href="department.html">Department</a></div>
+              </li>
+              <li class="box-item">
+                <div class="box-item__link d-flex justify-content-between align-items-center"><a href="doctor.html">Doctors</a><i class="fas fa-chevron-down"></i></div>
+                <ul class="box-list">
+                  <li class="list-item"><a class="list-item__link" href="doctor.html">Doctors</a></li>
+                  <li class="list-item"><a class="list-item__link" href="doctor-detail.html">Doctors Detail</a></li>
+                </ul>
+              </li>
+              <li class="box-item">
+                <div class="box-item__link d-flex justify-content-between align-items-center"><a href="blog.html">Blog</a><i class="fas fa-chevron-down"> </i></div>
+                <ul class="box-list">
+                  <li class="list-item"><a class="list-item__link" href="blog.html">Blog</a></li>
+                  <li class="list-item"><a class="list-item__link" href="blog-detail.html">Blog Detail </a></li>
+                </ul>
+              </li>
+              <li class="box-item">
+                <div class="box-item__link d-flex justify-content-between align-items-center"><a href="contact.html">Contact Us</a></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="menu-backdrop"></div>
+      </div>
+      <!-- banner blog-detail-->
+      <div class="banner banner__blog-detail">
+        <div class="banner__background"></div>
+        <div class="container">
+          <h1 class="banner__title">Single Blog</h1>
+          <ul class="banner__list"> 
+            <li class="banner__list-item"><a class="item-link" href="#">Home</a></li>
+            <li class="banner__list-link">Single Blog</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Side bar-->
+      <div class="sidebar">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-12 sidebar-content">
+              <div class="sidebar-content__info">
+                <div class="info-box">
+                  <h2 class="info-box__title">Blog Title</h2>
+                  <p class="info-box__text">Replenish him third creature and meat most of the blessed best of the void a fruit gathered. Replenish him third creature and meat most of the blessed best of the void a fruit gathered. Him third creature and meat most of the blessed best of the void a fruit gathered.</p><img class="info-box__img" src="images/news-11.jpg" alt="">
+                  <div class="info-box__author"><span class="author">By: John Smith</span><span class="time">115k Views . 12 March 2020</span></div>
+                  <h4>Gastrologist is someone who specializes in gastrology.</h4>
+                  <p class="info-box__text">Replenish him third creature and meat most of the blessed best of the void a fruit gathered. Replenish him third creature and meat most of the blessed best of the void a fruit gathered. Him third creature and meat most of the blessed best of the void a fruit gathered.</p>
+                  <p class="info-box__text">Technically, a gastrologist is someone who specializes in gastrology. That could mean caring for the stomach with medicine. It could also mean caring for the stomach with food. Gastrology may have been a medical term in the early 1900s, judging by journals from around that time. If so, the word was long ago replaced by gastroenterology. You won’t find doctors who describe themselves as gastrologists today -- at least not in the U.S. Technically, a gastrologist is someone who specializes in gastrology. That could mean caring for the stomach with medicine. It could also mean caring for the stomach with food.</p>
+                  <p class="info-box__text">Technically, a gastrologist is someone who specializes in gastrology. That could mean caring for the stomach with medicine. It could also mean caring for the stomach with food. Gastrology may have been a medical term</p>
+                  <ul class="social d-flex">
+                    <li class="share">Share now on</li>
+                    <li class="facebook"><a class="facebook__link blue fab fa-facebook-f" href=""></a></li>
+                    <li class="twitter"><a class="twitter__link lightblue fab fa-twitter" href=""></a></li>
+                    <li class="google"><a class="google__link red fab fa-linkedin-in" href=""></a></li>
+                  </ul>
+                </div>
+                <div class="info-comment">
+                  <h4 class="info-comment__title">Responses</h4>
+                  <div class="info-comment__box">
+                    <div class="comment"><img class="comment-img" src="images/author-4.jpg" alt="">
+                      <div class="comment-name"><strong>Alberta Husne</strong></div>
+                      <div class="comment-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has.</div>
+                      <div class="comment-pull d-flex justify-content-between">
+                        <div class="pull-left"><a class="pull-left__link fal fa-comment-dots" href="#"> <span>Reply</span></a></div>
+                        <div class="pull-right"><a class="pull-right__link fal fa-calendar-alt" href="#"> <span>June 28, 2019</span></a></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="info-comment__box">
+                    <div class="comment"><img class="comment-img" src="images/author-5.jpg" alt="">
+                      <div class="comment-name"><strong>Anastasia Antonia</strong></div>
+                      <div class="comment-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has.</div>
+                      <div class="comment-pull d-flex justify-content-between">
+                        <div class="pull-left"><a class="pull-left__link fal fa-comment-dots" href="#"> <span>Reply</span></a></div>
+                        <div class="pull-right"><a class="pull-right__link fal fa-calendar-alt" href="#"> <span>June 28, 2019</span></a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="info-form">
+                  <h4 class="info-form__title">Leave Comment</h4>
+                  <div class="info-form__contact">
+                    <form action="blog.html" menthod="post">
+                      <div class="row mx-10">
+                        <div class="col-lg-6 col-md-6 col-12 form-group">
+                          <input type="text" name="fullname" placeholder="Full Name*" required>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12 form-group">
+                          <input type="email" name="email" placeholder="Email Adress*" required>
+                        </div>
+                        <div class="col-12 form-group">
+                          <input type="text" name="subject" placeholder="Subject*" required>
+                        </div>
+                        <div class="col-12 form-group">
+                          <textarea class="massage" name="message" placeholder="Write your message"></textarea>
+                        </div>
+                        <div class="col-12 form-group">
+                          <button type="submit" name="submit-form"><span>Submit Message</span></button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-12 sidebar-side">
+              <div class="sticky-top">
+                <div class="popular">
+                  <h4 class="popular__title">Popular Blogs</h4>
+                  <div class="popular__box">
+                    <div class="popular__box-nav">
+                      <div class="nav-item"><img src="images/post-thumb-1.jpg" alt=""><a class="overlay-box" href="blog-detail.html"></a></div>
+                      <div class="nav-text"><a class="nav-text__link" href="blog-detail.html">Interface Introduction For Designers</a></div><a class="nav-item__author" href="blog-detail.html">By: David Smith</a>
+                    </div>
+                  </div>
+                  <div class="popular__box">
+                    <div class="popular__box-nav">
+                      <div class="nav-item"><img src="images/post-thumb-2.jpg" alt=""><a class="overlay-box" href="blog-detail.html"></a></div>
+                      <div class="nav-text"><a class="nav-text__link" href="blog-detail.html">Best Digital Asset Management Software In 2020</a></div><a class="nav-item__author" href="blog-detail.html">By: Lora Hence</a>
+                    </div>
+                  </div>
+                  <div class="popular__box">
+                    <div class="popular__box-nav">
+                      <div class="nav-item"><img src="images/post-thumb-3.jpg" alt=""><a class="overlay-box" href="blog-detail.html"></a></div>
+                      <div class="nav-text"><a class="nav-text__link" href="blog-detail.html">70% Of Marketers Are Not In Control Of Their Links!</a></div><a class="nav-item__author" href="blog-detail.html">By: David Smith</a>
+                    </div>
+                  </div>
+                  <div class="popular__box">
+                    <div class="popular__box-nav">
+                      <div class="nav-item"><img src="images/post-thumb-4.jpg" alt=""><a class="overlay-box" href="blog-detail.html"></a></div>
+                      <div class="nav-text"><a class="nav-text__link" href="blog-detail.html">The Best Online Learning Platforms</a></div><a class="nav-item__author" href="blog-detail.html">By: Kevin Moric</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="popular">
+                  <h4 class="popular__title">Recent Blogs</h4>
+                  <div class="popular__box">
+                    <div class="popular__box-nav">
+                      <div class="nav-item"><img src="images/post-thumb-1.jpg" alt=""><a class="overlay-box" href="blog-detail.html"></a></div>
+                      <div class="nav-text"><a class="nav-text__link" href="blog-detail.html">Interface Introduction For Designers</a></div><a class="nav-item__author" href="blog-detail.html">By: David Smith</a>
+                    </div>
+                  </div>
+                  <div class="popular__box">
+                    <div class="popular__box-nav">
+                      <div class="nav-item"><img src="images/post-thumb-2.jpg" alt=""><a class="overlay-box" href="blog-detail.html"></a></div>
+                      <div class="nav-text"><a class="nav-text__link" href="blog-detail.html">Best Digital Asset Management Software In 2020</a></div><a class="nav-item__author" href="blog-detail.html">By: Lora Hence</a>
+                    </div>
+                  </div>
+                  <div class="popular__box">
+                    <div class="popular__box-nav">
+                      <div class="nav-item"><img src="images/post-thumb-3.jpg" alt=""><a class="overlay-box" href="blog-detail.html"></a></div>
+                      <div class="nav-text"><a class="nav-text__link" href="blog-detail.html">70% Of Marketers Are Not In Control Of Their Links!</a></div><a class="nav-item__author" href="blog-detail.html">By: David Smith</a>
+                    </div>
+                  </div>
+                  <div class="popular__box">
+                    <div class="popular__box-nav">
+                      <div class="nav-item"><img src="images/post-thumb-4.jpg" alt=""><a class="overlay-box" href="blog-detail.html"></a></div>
+                      <div class="nav-text"><a class="nav-text__link" href="blog-detail.html">The Best Online Learning Platforms</a></div><a class="nav-item__author" href="blog-detail.html">By: Kevin Moric</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="popular__tags">
+                  <h4>Tags</h4>
+                  <ul class="tags">
+                    <li class="tags-list"><a class="tags-list__item" href="">Books</a></li>
+                    <li class="tags-list"><a class="tags-list__item" href="">Latest</a></li>
+                    <li class="tags-list"><a class="tags-list__item" href="">News</a></li>
+                    <li class="tags-list"><a class="tags-list__item" href="">Design</a></li>
+                    <li class="tags-list"><a class="tags-list__item" href="">Applications</a></li>
+                    <li class="tags-list"><a class="tags-list__item" href="">E-Commerce</a></li>
+                    <li class="tags-list"><a class="tags-list__item" href="">Website</a></li>
+                    <li class="tags-list"><a class="tags-list__item" href="">Popular</a></li>
+                    <li class="tags-list"><a class="tags-list__item" href="">Creative</a></li>
+                    <li class="tags-list"><a class="tags-list__item" href="">Web</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Related-->
+      <div class="related">
+        <div class="container">
+          <div class="related__title text-center">
+            <h2 class="related__title-text">Related Blogs</h2>
+            <div class="related__title-content">Replenish him third creature and meat most of the blessed<br>void a fruit gathered.</div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-12 mb-50">
+              <div class="related__img"><a class="related__img-link" href="blog-detail.html"><img src="images/news-8.jpg" alt=""></a></div>
+              <div class="related__content">
+                <h4><a class="related__content-link" href="blog-detail.html">Find out which posts are a hit with Blogger’s built.</a></h4>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 mb-50">
+              <div class="related__img"><a class="related__img-link" href="blog-detail.html"><img src="images/news-9.jpg" alt=""></a></div>
+              <div class="related__content">
+                <h4><a class="related__content-link" href="blog-detail.html">You can even connect your blog directly to Google Analytics</a></h4>
+              </div>
+            </div>
+            <div class="col-lg-6 col-12 mb-50">
+              <div class="related__img"><a class="related__img-link" href="blog-detail.html"><img src="images/news-10.jpg" alt=""></a></div>
+              <div class="related__content">
+                <h4><a class="related__content-link" href="blog-detail.html">You can even connect your blog directly to Google Analytics</a></h4>
+              </div>
+            </div>
+          </div>
+                <div class="pagination justify-content-center text-center">
+                  <ul class="pagination-list">
+                    <li class="prev"><a class="prev__link" href="#"><i class="fal fa-angle-left"></i></a></li>
+                    <li class="number"><a class="number__link" href="#" style="background-color: #5153ff ; color: #fff">1</a></li>
+                    <li class="number"><a class="number__link" href="#">2</a></li>
+                    <li class="number"><a class="number__link" href="#">3</a></li>
+                    <li class="number"><a class="number__link" href="#">4</a></li>
+                    <li class="number"><a class="number__link" href="#">5</a></li>
+                    <li class="next"><a class="next__link" href="#"><i class="fal fa-angle-right"></i></a></li>
+                  </ul>
+                </div>
+        </div>
+      </div>
+      <!-- Footer-->
+      <div class="footer footer__main">
+        <div class="footer__main-1"></div>
+        <div class="footer__main-2"></div>
+        <div class="container">
+          <div class="footer__contact text-center">
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <div class="footer__contact-text"><i class="fas fa-phone-alt"></i><span>Call For An Appointment</span></div>
+              </div>
+              <div class="col-lg-6 col-12"><a class="footer__contact-number" href="#">+1 (800) 123-4567</a></div>
+            </div>
+          </div>
+          <div class="footer__info">
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <div class="row">
+                  <div class="col-lg-7 col-md-6 col-12 footer__info-column">
+                    <div class="footer__widget">
+                      <div class="footer__widget-logo"><a class="logo-link" href="index.html"><img src="images/logo.png" alt=""></a></div>
+                      <div class="footer__widget-text">Replenish him third creature and meat blessed void a fruit gathered you’re, they’re two waters own morning gathered greater.</div>
+                      <div class="footer__widget-social"><a class="social-link" href="#"><i class="fab fa-facebook-square"></i></a><a class="social-link" href="#"><i class="fab fa-twitter-square"></i></a><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-md-6 col-12 footer__info-column">
+                    <div class="footer__about">
+                      <h4>About Us</h4>
+                      <ul class="footer__about-link">
+                        <li><a href="#">Afficiates</a></li>
+                        <li><a href="#">Partners</a></li>
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-12">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-12 footer__info-column">
+                    <div class="footer__about">
+                      <h4>Resource</h4>
+                      <ul class="footer__about-link">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Support Area</a></li>
+                        <li><a href="#">Documentations</a></li>
+                        <li><a href="#">How It Works</a></li>
+                        <li><a href="#">Terms Of Policy</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-12 footer__info-column">
+                    <div class="footer__about">
+                      <h4>Quick Links</h4>
+                      <ul class="footer__about-link">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Latest Post</a></li>
+                        <li><a href="#">Contact</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="container">
+            <div class="footer__bottom-text">Copyright © 2020 AuburnForest</div>
+          </div>
+        </div>
+      </div>
+      <!-- Backtotop-->
+      <div class="backtotop"><span class="fas fa-arrow-circle-up"></span></div>
+    </wrapper>
+    <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/typeit.js"></script>
+    <script src="js/owlcarousel.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
